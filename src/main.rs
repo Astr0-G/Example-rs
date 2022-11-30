@@ -83,6 +83,6 @@ fn add_moreothernumbers(x: i32, y: i32) -> i32 {
     }
     result
 }
-fn add(x: i32, y: i32) {
-    x + y;
+fn add(x: i32, y: i32) -> i32 {
+    return x + y;
 }
